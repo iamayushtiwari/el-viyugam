@@ -28,90 +28,10 @@ Before contributing, please read the guidelines below carefully.
 
 ---
 
-## Getting Started
+## Contribution Resources
 
-- Fork the repository  
-- Clone your fork locally  
-- Create a new branch for your work  
-- Make your changes  
-- Test your implementation properly  
-- Submit a pull request with a clear description  
-
----
-
-## Development Standards
-
-### Code Quality
-
-- Write clean and readable code  
-- Follow the existing project structure  
-- Avoid unnecessary dependencies  
-- Add comments only where required  
-- Keep functions modular and maintainable  
-
----
-
-## Pull Request Guidelines
-
-- Keep pull requests focused and limited to a single improvement  
-- Link related issues whenever possible  
-- Provide screenshots for UI changes  
-- Provide Postman or API response screenshots for backend changes  
-- Provide test result screenshots for testing changes  
-- Ensure all tests pass before submitting  
-- Explain implementation decisions clearly  
-- Ensure the project builds successfully before submitting  
-
----
-
-## Commit Guidelines
-
-Use clear and meaningful commit messages that describe the actual change made in the project.
-
----
-
-## Commit Format
-
-section (feature) : short message
-
----
-
-## Sections
-
-core      -   Backend logic, scheduling, engine  
-database   -  Data models and storage  
-interface  -  UI and frontend screens  
-testing    -  Test cases and validation  
-docs     -    Documentation updates  
-
----
-
-## Examples
-
-core (auth) : implement user login flow  
-database (dashboard) : create usage schema  
-interface (home) : add landing page UI  
-interface (dashboard) : improve sidebar layout  
-testing (queue) : add scheduler unit tests  
-docs : update setup instructions  
-
----
-
-## Rules
-
-- Keep commits short and clear  
-- Always mention section and feature  
-- Avoid vague messages like "fix", "update", "done"  
-
----
-
-## Pull Request Guidelines
-
-- Keep pull requests focused and limited to a single improvement  
-- Link related issues whenever possible  
-- Provide screenshots for UI changes  
-- Provide Postman or API response screenshots for backend changes  
-- Provide test result screenshots for testing changes  
-- Ensure all tests pass before submitting  
-- Explain implementation decisions clearly  
-- Ensure the project builds successfully before submitting  
+- Getting Started And Setup Guide → docs/for-contributors/getting-started.md  
+- Issue Guidelines → docs/for-contributors/issue-guidelines.md  
+- Commit Guidelines → docs/for-contributors/commit-guidelines.md  
+- Pull Request Guidelines → docs/for-contributors/pull-request-guidelines.md  
+- Code Standards → docs/for-contributors/code-standards.md  
