@@ -30,8 +30,8 @@ Before contributing, please read the guidelines below carefully.
 
 ## Contribution Resources
 
-- Getting Started And Setup Guide → docs/for-contributors/getting-started.md  
-- Issue Guidelines → docs/for-contributors/issue-guidelines.md  
-- Commit Guidelines → docs/for-contributors/commit-guidelines.md  
-- Pull Request Guidelines → docs/for-contributors/pull-request-guidelines.md  
-- Code Standards → docs/for-contributors/code-standards.md  
+- [Getting Started And Setup Guide](docs/for-contributors/getting-started.md) — Steps to set up the project locally and start contributing  
+- [Issue Guidelines](docs/for-contributors/issue-guidelines.md) — Guidelines for reporting bugs, suggesting features, and creating issues  
+- [Commit Guidelines](docs/for-contributors/commit-guidelines.md) — Standard commit message format and contribution commit rules  
+- [Pull Request Guidelines](docs/for-contributors/pull-request-guidelines.md) — Requirements and checklist before submitting pull requests  
+- [Code Standards](docs/for-contributors/code-standards.md) — Coding conventions, structure, and development best practices  
