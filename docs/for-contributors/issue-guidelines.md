@@ -2,6 +2,16 @@
 
 Guidelines for reporting bugs, suggesting features, and creating issues.
 
+## Working on an Issue
+
+Before starting work on an issue:
+
+- Check if the issue is already assigned
+- Comment on the issue to express your interest
+- Wait to get assigned before starting work
+- Do not work on multiple issues without approval
+- Follow the project contribution and commit guidelines
+
 ## Report a Bug
 
 When reporting a bug, please include:
