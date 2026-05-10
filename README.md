@@ -29,7 +29,7 @@ Before contributing, please read the guidelines below carefully.
   Steps to set up the project locally and start contributing
 
 - [Issue Guidelines](docs/for-contributors/issue-guidelines.md)  
-  Guidelines for reporting bugs, suggesting features, and creating issues
+  Guidelines for working on issues, reporting bugs, suggesting features, and creating issues.
 
 - [Commit Guidelines](docs/for-contributors/commit-guidelines.md)  
   Standard commit message format and contribution commit rules
