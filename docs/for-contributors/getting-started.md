@@ -52,3 +52,24 @@ The backend server will run locally on:
 
 http://localhost:3001
 
+### Database Setup
+
+Follow the steps below to configure the database locally for backend development.
+
+1. Install PostgreSQL on your system and ensure the service is running.
+
+2. Create a `.env` file in the backend directory.
+
+3. Add the following database connection string to the `.env` file:
+
+```env
+DATABASE_URL="postgresql://USER:PASSWORD@localhost:5432/el_viyugam"
+```
+
+4. Run the Prisma migrations to set up the database schema:
+
+```bash
+npx prisma migrate dev
+```
+
+5. Start the backend development server.
