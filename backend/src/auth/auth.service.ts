@@ -6,7 +6,7 @@ export class AuthService {
   login(loginDto: LoginDto) {
     const { email, password } = loginDto;
 
-    if (!email || !password) {
+    if (!email.trim() || !password.trim()) {
       throw new UnauthorizedException('Email and password are required');
     }
 
