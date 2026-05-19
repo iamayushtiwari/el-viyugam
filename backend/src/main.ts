@@ -1,11 +1,12 @@
+import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './app.module.js';
 import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  const port = process.env.PORT ?? 3001;
+const port = process.env.PORT ?? 3001;
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
@@ -19,7 +20,8 @@ async function bootstrap() {
 
   await app.listen(port);
 
-  console.log(`Application is running on: http://localhost:${port}`);
-}
+  const port = process.env.PORT || 3000;
 
+  await app.listen(port);
+}
 bootstrap();
